@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "collapse_physics",
+  "version": "${version}",
+  "name": "Collapse Physics & Far View",
+  "description": "Unsupported blocks collapse (tree trunks, roofs, bridges), and the render distance limit is raised beyond 32 chunks.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["dev.example.collapse.CollapseMod"]
+  },
+  "mixins": ["collapse_physics.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
